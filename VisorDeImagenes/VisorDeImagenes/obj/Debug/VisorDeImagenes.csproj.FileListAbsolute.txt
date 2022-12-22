@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\bin\Debug\VisorDeImagenes.exe.config
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\bin\Debug\VisorDeImagenes.exe
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\bin\Debug\VisorDeImagenes.pdb
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes_MarkupCompile.cache
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes_MarkupCompile.lref
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes.g.resources
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes.Properties.Resources.resources
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes.exe
+C:\Users\eetxa\source\repos\VisorDeImagenes\VisorDeImagenes\obj\Debug\VisorDeImagenes.pdb

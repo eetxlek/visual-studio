@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\bin\Debug\Actividad UT4-3 Triggers.exe.config
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\bin\Debug\Actividad UT4-3 Triggers.exe
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\bin\Debug\Actividad UT4-3 Triggers.pdb
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers_MarkupCompile.cache
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers_MarkupCompile.lref
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers.g.resources
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad_UT4_3_Triggers.Properties.Resources.resources
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers.exe
+C:\Users\eetxa\source\repos\Actividad UT4-3 Triggers\Actividad UT4-3 Triggers\obj\Debug\Actividad UT4-3 Triggers.pdb

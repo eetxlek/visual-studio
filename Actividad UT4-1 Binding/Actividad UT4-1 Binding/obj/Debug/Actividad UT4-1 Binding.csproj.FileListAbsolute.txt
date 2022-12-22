@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\bin\Debug\Actividad UT4-1 Binding.exe.config
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\bin\Debug\Actividad UT4-1 Binding.exe
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\bin\Debug\Actividad UT4-1 Binding.pdb
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding_MarkupCompile.cache
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding_MarkupCompile.lref
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding.g.resources
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad_UT4_1_Binding.Properties.Resources.resources
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding.exe
+C:\Users\eetxa\source\repos\Actividad UT4-1 Binding\Actividad UT4-1 Binding\obj\Debug\Actividad UT4-1 Binding.pdb

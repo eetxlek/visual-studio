@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\bin\Debug\Estaciones.exe.config
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\bin\Debug\Estaciones.exe
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\bin\Debug\Estaciones.pdb
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones_MarkupCompile.cache
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones_MarkupCompile.lref
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones.g.resources
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones.Properties.Resources.resources
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones.exe
+C:\Users\eetxa\source\repos\Estaciones\Estaciones\obj\Debug\Estaciones.pdb

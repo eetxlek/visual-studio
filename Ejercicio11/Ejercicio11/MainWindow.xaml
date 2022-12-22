@@ -1,0 +1,56 @@
+﻿<Window x:Class="Ejercicio11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600" MinWidth="300">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="ClickMode" Value="Press"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="TextAlignment" Value="Right"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="MinWidth" Value="300"/>
+        </Style>
+        <Style TargetType="{x:Type Grid}">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="MinWidth" Value="300"/>
+        </Style>
+    </Window.Resources>
+    <Viewbox>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Name="pantalla" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" ></TextBox>
+            <Button Tag="1" Click="Button_Click" Grid.Row="1" Grid.Column="0">1</Button>
+            <Button Tag="2" Click="Button_Click" Grid.Row="1" Grid.Column="1">2</Button>
+            <Button Tag="3" Click="Button_Click" Grid.Row="1" Grid.Column="2">3</Button>
+            <Button Tag="4" Click="Button_Click" Grid.Row="2" Grid.Column="0">4</Button>
+            <Button Tag="5" Click="Button_Click" Grid.Row="2" Grid.Column="1">5</Button>
+            <Button Tag="6" Click="Button_Click" Grid.Row="2" Grid.Column="2">6</Button>
+            <Button Tag="7" Click="Button_Click" Grid.Row="3" Grid.Column="0">7</Button>
+            <Button Tag="8" Click="Button_Click" Grid.Row="3" Grid.Column="1">8</Button>
+            <Button Tag="9" Click="Button_Click" Grid.Row="3" Grid.Column="2">9</Button>
+            <Button Tag="0" Click="Button_Click" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3">0</Button>
+
+        </Grid>
+    </Viewbox>
+</Window>

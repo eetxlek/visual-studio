@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\bin\Debug\Actividad UT4-2-Binding con objeto.exe.config
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\bin\Debug\Actividad UT4-2-Binding con objeto.exe
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\bin\Debug\Actividad UT4-2-Binding con objeto.pdb
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto_MarkupCompile.cache
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto_MarkupCompile.lref
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto.g.resources
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad_UT4_2_Binding_con_objeto.Properties.Resources.resources
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto.exe
+C:\Users\eetxa\source\repos\Actividad UT4-2-Binding con objeto\Actividad UT4-2-Binding con objeto\obj\Debug\Actividad UT4-2-Binding con objeto.pdb

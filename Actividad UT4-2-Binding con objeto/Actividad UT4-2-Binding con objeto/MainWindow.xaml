@@ -1,0 +1,126 @@
+﻿<Window x:Class="Actividad_UT4_2_Binding_con_objeto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Actividad_UT4_2_Binding_con_objeto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="DockPanel">
+            <Setter Property="Background" Value="PaleGreen"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Heroe}" Value="False">
+                    <Setter Property="Background" Value="IndianRed"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+       
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Ver Superhéroes">
+                <DockPanel x:Name="datosDockPanel"  LastChildFill="True">
+                    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label x:Name="titulo" Content="{Binding Path= Nombre}" Margin="10" Foreground="White" FontFamily="Impact" FontSize="40" HorizontalAlignment="Left">
+                            <Label.Effect>
+                                <DropShadowEffect ShadowDepth="4"  Color="Black"></DropShadowEffect>
+                            </Label.Effect>
+                        </Label>
+                        <Label HorizontalAlignment="Center" Width="400"></Label>
+                        <Image x:Name="vengadores" Source="avengers.png" Width="40" HorizontalAlignment="Right" Margin="10">
+                            <Image.Style>
+                                <Style TargetType="{x:Type Image}">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Path=Vengador}" Value="True">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+
+                        <Image x:Name="xmens" Source="xmen.png" Width="50" HorizontalAlignment="Right" Margin="10">
+                            <Image.Style>
+                                <Style TargetType="{x:Type Image}">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Path=Xmen}" Value="True">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                    </StackPanel>
+                    <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" >
+                        <Button Background="Transparent" ClickMode="Press" Click="ArrowIzquierdo"  HorizontalAlignment="Center">
+                            <Image Source="arrow.png" Width="30"/>
+                        </Button>
+                        <TextBox Background="{Binding ElementName=datosDockPanel, Path=Background}" x:Name="numerador" Text="1" TextChanged="numerador_TextChanged" FontWeight="Bold" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                        <TextBox Background="{Binding ElementName=datosDockPanel, Path=Background}" Text="/" FontWeight="Bold" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                        <TextBox Background="{Binding ElementName=datosDockPanel, Path=Background}" x:Name="totalNumerador"   Text="" FontWeight="Bold" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                        <Button Background="Transparent" ClickMode="Press" Click="ArrowDerecho">
+                            <Image Source="arrow.png" Width="30" RenderTransformOrigin="0.5,0.5">
+                                <Image.RenderTransform>
+                                    <RotateTransform Angle="180"/>
+                                </Image.RenderTransform>
+                            </Image>
+                        </Button>
+                    </StackPanel>
+                    <Image x:Name="imagenPortada" Source="{Binding Path= Imagen}"/>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Nuevo superhéroe">
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <StackPanel Orientation="Vertical">
+
+                        <StackPanel Width="400" Orientation="Horizontal">
+                            <TextBlock Margin="10,5,3,2" Height="20" > Nombre de superhéroe</TextBlock>
+                            <Image ToolTip="Nombre del heroe en ingles" Source="info.png" Width="20" Height="20" Margin="10,2"></Image>
+                        </StackPanel>
+                        <TextBox x:Name="nombreNuevo" Margin="10,2" Height="20" ></TextBox>
+                        <StackPanel Width="400" Orientation="Horizontal">
+                            <TextBlock Margin="10,5,10,2" Height="20"> Imagen</TextBlock>
+                            <Image ToolTip="Imagen en formato comic" Source="info.png" Width="20" Height="20"></Image>
+                        </StackPanel>
+                        <TextBox x:Name="imagenUrl" Margin="10,2" Height="20"></TextBox>
+                        <DockPanel LastChildFill="True" Margin="10" HorizontalAlignment="Center" Background="White" >
+                            <Border BorderBrush="Black" BorderThickness="2" >
+                                <Border.Effect>
+                                    <DropShadowEffect ShadowDepth="4"/>
+                                </Border.Effect>
+                                <StackPanel x:Name="heroeVillano" DockPanel.Dock="Left" Width="180" Background="white">
+                                    <RadioButton x:Name="heroe" Margin="3" IsChecked="True" Content="Héroe" ></RadioButton>
+                                    <RadioButton x:Name="villano" Margin="3" Content="Villano"></RadioButton>
+                                </StackPanel>
+                            </Border>
+                            <StackPanel Background="White" Width="5" Margin="5"></StackPanel>
+                            <Border BorderBrush="Black" BorderThickness="2">
+                                <Border.Effect>
+                                    <DropShadowEffect ShadowDepth="4"/>
+                                </Border.Effect>
+                                <StackPanel DockPanel.Dock="Right" Background="White" Width="180" >
+                                    <CheckBox x:Name="vengador" IsEnabled="{Binding ElementName=heroe, Path=IsChecked}"  Margin="3" IsChecked="False">Vengadores</CheckBox>
+                                    <CheckBox x:Name="xmen" IsEnabled="{Binding ElementName=heroe, Path=IsChecked}" Margin="3" IsChecked="False">X-men</CheckBox>
+                                </StackPanel>
+                            </Border>
+                        </DockPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Width="80" Content="Aceptar" Margin="5" Click="Aceptar_Click"></Button>
+                            <Button Width="80" Content="Limpiar" Margin="5"></Button>
+                        </StackPanel>
+                    </StackPanel>
+                    <Border BorderBrush="Black" BorderThickness="2" CornerRadius="5">
+                        <StackPanel Background="LightGoldenrodYellow" Width="350">
+                            <Image Source="{Binding ElementName=imagenUrl, Path=Text}" Width="300" Height="300" ></Image>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\bin\Debug\EquiposNBA.exe.config
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\bin\Debug\EquiposNBA.exe
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\bin\Debug\EquiposNBA.pdb
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA_MarkupCompile.cache
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA_MarkupCompile.lref
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA.g.resources
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA.Properties.Resources.resources
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA.exe
+C:\Users\eetxa\source\repos\EquiposNBA\EquiposNBA\obj\Debug\EquiposNBA.pdb

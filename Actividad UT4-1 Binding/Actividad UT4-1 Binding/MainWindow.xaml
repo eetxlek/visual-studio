@@ -1,0 +1,66 @@
+﻿<Window x:Class="Actividad_UT4_1_Binding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Actividad_UT4_1_Binding"
+        mc:Ignorable="d"
+        Title="MemeMaker" Height="500" Width="800">
+    <Window.Resources>
+        <Style TargetType="Border">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ElementName=borde, Path=IsChecked}" Value="True">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </DataTrigger>
+        </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <DockPanel LastChildFill="True">
+        <StackPanel DockPanel.Dock="Top" Margin="5" Orientation="Horizontal" >
+                <TextBlock MinWidth="76" TextWrapping="Wrap" Text="Texto Superior" Height="20" Margin="0,0,10,0" HorizontalAlignment="Left" />
+                <TextBox x:Name="textSup" Text="Texto superior" Height="20" MinWidth="670" />
+            </StackPanel >
+        
+        <StackPanel  DockPanel.Dock="Top" Margin="5" Orientation="Horizontal">
+                <TextBlock MinWidth="76" TextWrapping="Wrap" Text="Texto Inferior" Height="20" Margin="0,0,10,0" HorizontalAlignment="Left" />
+            <TextBox x:Name="textinf" Text="Texto inferior" Height="20" MinWidth="670" />
+        </StackPanel >
+        
+        <StackPanel  DockPanel.Dock="Top" Margin="5" Orientation="Horizontal">
+            <TextBlock MinWidth="76" Text="Alto"  Margin="0,0,10,0"></TextBlock>
+            <Slider x:Name="sliderAlto"  Width="500" Minimum="100" Maximum="1000" Value="500" />
+        </StackPanel>
+        
+        <StackPanel  DockPanel.Dock="Top" Margin="5" Orientation="Horizontal">
+            <TextBlock MinWidth="76" Text="Ancho"  Margin="0,0,10,0"></TextBlock>
+            <Slider  x:Name="sliderAncho" Width="500" Minimum="100" Maximum="1000" Value="500" />
+        </StackPanel>
+        
+        <StackPanel  DockPanel.Dock="Top" Margin="5" Orientation="Horizontal">
+                <TextBlock MinWidth="76" TextWrapping="Wrap" Text="Imagen" Height="20" Margin="0,0,10,0" HorizontalAlignment="Left"  />
+            <TextBox x:Name="url" Text="" Height="20" MinWidth="670" />
+        </StackPanel >
+       
+        <StackPanel DockPanel.Dock="Top"  Margin="5" Orientation="Horizontal">
+            <TextBlock Text="Borde" MinWidth="76" TextWrapping="Wrap" Height="20" Margin="0,0,10,0" HorizontalAlignment="Left"></TextBlock>
+            <CheckBox Name="borde" IsChecked="True" ></CheckBox>
+        </StackPanel>
+        
+        <Border x:Name="lineaborde" Margin="100,0,0,0"  MinHeight="100" Width="{Binding ElementName=sliderAncho, Path=Value}" Height="{Binding ElementName=sliderAlto, Path=Value}">
+            <DockPanel x:Name="meme" LastChildFill="True" MinWidth="100" MinHeight="100" Background="LightCoral" Width="{Binding ElementName=sliderAncho, Path=Value}" Height="{Binding ElementName=sliderAlto, Path=Value}">
+                <TextBlock DockPanel.Dock="Top"  TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="36" FontFamily="Impact" Foreground="White" Text="{Binding ElementName=textSup, Path=Text}">
+                    <TextBlock.Effect>
+                        <DropShadowEffect ShadowDepth="4" Color="Black" Direction="330" BlurRadius="4"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                <TextBlock DockPanel.Dock="Bottom"  TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="36" FontFamily="Impact"  Foreground="White" Text="{Binding ElementName=textinf, Path=Text}">
+                    <TextBlock.Effect>
+                        <DropShadowEffect ShadowDepth="4" Color="Black" Direction="330" BlurRadius="4"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                <Image Source="{Binding ElementName=url, Path=Text}" Width="400" Height="200"></Image>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</Window>

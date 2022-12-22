@@ -1,0 +1,20 @@
+﻿<Window x:Class="Mosaico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mosaico"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <DockPanel LastChildFill="True" MinHeight="270" MinWidth="550">
+        <TextBlock DockPanel.Dock="Top" Height="100" Background="#FF7D2CB5" MinWidth="400"></TextBlock>
+        <TextBlock DockPanel.Dock="Top" Height="100" Background="#FFE24BDB" Margin="200,0,100.333,0" MinWidth="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Left" Width="100" Background="#FF7D2CB5" Margin="0,-100,0,0" MinHeight="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Left" Width="100"  Margin="0,-100,0,-0.333" Background="#FFD7692A" MinWidth="100" MinHeight="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Right" Width="100" HorizontalAlignment="Right" Background="#FF24B635" Margin="0,-100,0,0" MinWidth="100" MinHeight="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Bottom" Height="100" Background="#FF24B635" Margin="-100,0,-99.667,0" MinWidth="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Bottom" Height="100" Background="#FFD7692A" Margin="0,0,100,0" MinWidth="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Right" Width="100" HorizontalAlignment="Right" Background="#FFE24BDB" Margin="0,-100,0,-100" MinWidth="100" MinHeight="100"></TextBlock>
+        <TextBox Background="#FF110A0A" MinWidth="20" MinHeight="20" ></TextBox>
+    </DockPanel>
+</Window>

@@ -1,0 +1,136 @@
+﻿<Window x:Class="Ejercicio12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" MinHeight="500" MinWidth="800">
+    <Window.Resources>
+        <Style TargetType="{x:Type Border }">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="CornerRadius" Value="3"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock }">
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type StackPanel }" x:Key="bajo">
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+        </Style>
+        <Style TargetType="{x:Type StackPanel }" x:Key="amarillo">
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Height" Value="120"/>
+            <Setter Property="Background" Value="LightGoldenrodYellow"/>
+        </Style>
+        <Style TargetType="{x:Type StackPanel }" x:Key="stackhijo">
+            <Setter Property="Orientation" Value="Vertical"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type Label }" x:Key="firma">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+        <Style TargetType="{x:Type Image }" x:Key="imagen">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="HorizontalAlignment" Value="right"/>
+        </Style>
+        <Style TargetType="{x:Type Image }" x:Key="info">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Height" Value="26"/>
+        </Style>
+        <Style TargetType="{x:Type Button }" >
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type Grid}" >
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="Height" Value="80"/>
+        </Style>
+        <Style TargetType="{x:Type Label }" x:Key="labelgrid">
+            <Setter Property="Height" Value="26"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox }" x:Key="boxgrid">
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type GroupBox }" >
+            <Setter Property="Width" Value="200"/>
+        </Style>
+        <Style TargetType="{x:Type DockPanel }" >
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type DockPanel }" x:Key="dochijo">
+            <Setter Property="Height" Value="40"/>
+        </Style>
+
+
+
+    </Window.Resources>
+    <DockPanel MinWidth="500" >
+        <TextBlock DockPanel.Dock="Top" >Formulario</TextBlock>
+        <DockPanel Style="{StaticResource dochijo}" DockPanel.Dock="Bottom" >
+            <Label Style="{StaticResource firma}">Estibaliz Etxaburu</Label>
+            <StackPanel Style="{StaticResource bajo}">
+                <Button >Aceptar</Button>
+                <Button >Cancelar</Button>
+            </StackPanel>
+        </DockPanel>
+        <Image  Style="{StaticResource imagen}" DockPanel.Dock="Right" Source="foto.jpg" />
+        <StackPanel MinWidth="500"  DockPanel.Dock="Left" Margin="5,6,5,38">
+            <Border >
+                <Grid DockPanel.Dock="Top">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"></RowDefinition>
+                        <RowDefinition Height="10*"></RowDefinition>
+                        <RowDefinition Height="10*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="69*"></ColumnDefinition>
+                        <ColumnDefinition Width="425*"></ColumnDefinition>
+                        <ColumnDefinition Width="39*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Style="{StaticResource labelgrid}" Grid.Row="0" Grid.Column="0">Nombre</Label>
+                    <TextBox Style="{StaticResource boxgrid}" Grid.Row="0" Grid.Column="1"></TextBox>
+                    <Label Style="{StaticResource labelgrid}" Grid.Row="1" Grid.Column="0">Edad</Label>
+                    <TextBox Style="{StaticResource boxgrid}" Grid.Row="1" Grid.Column="1"></TextBox>
+                    <Label Style="{StaticResource labelgrid}" Grid.Row="2" Grid.Column="0">Direccion</Label>
+                    <TextBox Style="{StaticResource boxgrid}" Grid.Row="2" Grid.Column="1"></TextBox>
+                    <Image Style="{StaticResource info}" ToolTip="información" Grid.Row="0"  Grid.Column="2" Source="info.png"  />
+                    <Image Style="{StaticResource info}" ToolTip="información" Grid.Row="1"  Grid.Column="2" Source="info.png"  />
+                    <Image Style="{StaticResource info}" ToolTip="información" Grid.Row="2"  Grid.Column="2" Source="info.png"  />
+                </Grid>
+            </Border>
+            <Border>
+                <StackPanel Style="{StaticResource amarillo}" DockPanel.Dock="Bottom" >
+                    <GroupBox Header="Aficiones" Margin="5">
+                        <StackPanel  Style="{StaticResource stackhijo}">
+                            <CheckBox Margin="2,5,1,1">Hacer deporte</CheckBox>
+                            <CheckBox Margin="2">Viajar</CheckBox>
+                            <CheckBox Margin="2">Ver series</CheckBox>
+                            <CheckBox Margin="2,1,1,5">Leer comics</CheckBox>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox Header="Estado civil" Margin="30,5">
+                        <StackPanel Style="{StaticResource stackhijo}">
+                            <RadioButton IsChecked="True" Margin="1,5,1,1">Soltero</RadioButton>
+                            <RadioButton Margin="1">Casado</RadioButton>
+                            <RadioButton Margin="1">Divorciado</RadioButton>
+                            <RadioButton Margin="1,1,1,5">Viudo</RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </DockPanel>
+</Window>

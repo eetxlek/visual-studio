@@ -1,0 +1,39 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600" MinWidth="300">
+    <Viewbox>
+        <Grid Margin="5" MinWidth="300" >
+        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+            <TextBox Name="pantalla" Margin="5" MinWidth="300" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" TextAlignment="Right" FontSize="40"></TextBox>
+            <Button Tag="1" Click="click" ClickMode="Press" Margin="5" Grid.Row="1" Grid.Column="0" FontWeight="Bold" FontSize="20">1</Button>
+            <Button Tag="2" Click="click" ClickMode="Press" Margin="5" Grid.Row="1" Grid.Column="1" FontWeight="Bold" FontSize="20">2</Button>
+            <Button Tag="3" Click="click" ClickMode="Press" Margin="5" Grid.Row="1" Grid.Column="2" FontWeight="Bold" FontSize="20">3</Button>
+            <Button Tag="4" Click="click" ClickMode="Press" Margin="5" Grid.Row="2" Grid.Column="0" FontWeight="Bold" FontSize="20">4</Button>
+            <Button Tag="5" Click="click" ClickMode="Press" Margin="5" Grid.Row="2" Grid.Column="1" FontWeight="Bold" FontSize="20">5</Button>
+            <Button Tag="6" Click="click" ClickMode="Press" Margin="5" Grid.Row="2" Grid.Column="2" FontWeight="Bold" FontSize="20">6</Button>
+            <Button Tag="7" Click="click" ClickMode="Press" Margin="5" Grid.Row="3" Grid.Column="0" FontWeight="Bold" FontSize="20">7</Button>
+            <Button Tag="8" Click="click" ClickMode="Press" Margin="5" Grid.Row="3" Grid.Column="1" FontWeight="Bold" FontSize="20">8</Button>
+            <Button Tag="9" Click="click" ClickMode="Press" Margin="5" Grid.Row="3" Grid.Column="2" FontWeight="Bold" FontSize="20">9</Button>
+            <Button Tag="0" Click="click" ClickMode="Press" Margin="5" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" FontWeight="Bold" FontSize="20">0</Button>
+
+        </Grid>
+    </Viewbox>
+</Window>

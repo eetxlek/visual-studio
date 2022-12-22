@@ -1,0 +1,73 @@
+﻿<Window x:Class="Ejercicio10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="600" MinWidth="600">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button }">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="{x:Type Image }">
+            <Setter Property="Height" Value="150"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type Border }">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="CornerRadius" Value="3"/>
+        </Style>
+        <Style TargetType="{x:Type Label }">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="{x:Type Label }" x:Key="titulo">
+            <Setter Property="FontSize" Value="40"/>
+        </Style>
+        <Style TargetType="{x:Type DockPanel }" x:Key="texto">
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+
+    </Window.Resources>
+    <DockPanel>
+        <DockPanel LastChildFill="True" MinWidth="500" Background="LightBlue" DockPanel.Dock="Bottom"  Style="{StaticResource texto}" >
+            <Label DockPanel.Dock="Left" Height="45">Nº de imagenes:8</Label>
+            <Label DockPanel.Dock="Right" Width="300">Diseñado por Jorge González</Label>
+            <Label></Label>
+        </DockPanel>
+        <DockPanel Style="{StaticResource texto}" Width="133" DockPanel.Dock="Right" >
+            <Border>
+                <DockPanel LastChildFill="True"  Background="#FF97EE8A" MinHeight="170" >
+                    <StackPanel DockPanel.Dock="Top">
+                        <Button>Añadir imagen</Button>
+                        <Button >Eliminar imagen</Button>
+                        <Button >Eliminar todas</Button>
+                    </StackPanel>
+                    <StackPanel DockPanel.Dock="Bottom">
+                        <Button >Rotar</Button>
+                        <Button >Recortar</Button>
+                    </StackPanel>
+                    <StackPanel></StackPanel>
+                </DockPanel>
+            </Border>
+        </DockPanel>
+        <DockPanel Style="{StaticResource texto}" DockPanel.Dock="Top" HorizontalAlignment="Center" >
+            <Label Style="{StaticResource titulo}">Visor de imágenes</Label>
+        </DockPanel>
+
+        <WrapPanel DockPanel.Dock="Left"  >
+            <Image Source="episodioIV.jpg"/>
+            <Image Source="episodioIV.jpg"/>
+            <Image Source="episodioIV.jpg"/>
+            <Image Source="episodioIV.jpg"/>
+            <Image Source="episodioIV.jpg"/>
+            <Image Source="episodioIV.jpg"/>
+            <Image Source="episodioIV.jpg"/>
+            <Image Source="episodioIV.jpg"/>
+        </WrapPanel>
+    </DockPanel>
+
+</Window>

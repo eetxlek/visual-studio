@@ -1,0 +1,9 @@
+﻿<Application x:Class="Actividad_UT4_2_Binding_con_objeto.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Actividad_UT4_2_Binding_con_objeto"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\bin\Debug\Mosaico.exe.config
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\bin\Debug\Mosaico.exe
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\bin\Debug\Mosaico.pdb
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico_MarkupCompile.cache
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico_MarkupCompile.lref
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico.g.resources
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico.Properties.Resources.resources
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico.exe
+C:\Users\eetxa\source\repos\Mosaico\Mosaico\obj\Debug\Mosaico.pdb

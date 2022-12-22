@@ -1,0 +1,14 @@
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\bin\Debug\Actividad Tema 5-2 Plantillas de control.exe.config
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\bin\Debug\Actividad Tema 5-2 Plantillas de control.exe
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\bin\Debug\Actividad Tema 5-2 Plantillas de control.pdb
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad Tema 5-2 Plantillas de control.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad Tema 5-2 Plantillas de control_MarkupCompile.cache
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad Tema 5-2 Plantillas de control.g.resources
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad_Tema_5_2_Plantillas_de_control.Properties.Resources.resources
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad Tema 5-2 Plantillas de control.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad Tema 5-2 Plantillas de control.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad Tema 5-2 Plantillas de control.exe
+C:\Users\eetxa\source\repos\Actividad Tema 5-2 Plantillas de control\Actividad Tema 5-2 Plantillas de control\obj\Debug\Actividad Tema 5-2 Plantillas de control.pdb

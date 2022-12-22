@@ -1,0 +1,15 @@
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\bin\Debug\7.Formulario.exe.config
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\bin\Debug\7.Formulario.exe
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\bin\Debug\7.Formulario.pdb
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario.csproj.AssemblyReference.cache
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\MainWindow.g.cs
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\App.g.cs
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario_MarkupCompile.cache
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario_MarkupCompile.lref
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\MainWindow.baml
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario.g.resources
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\_7.Formulario.Properties.Resources.resources
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario.csproj.GenerateResource.cache
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario.csproj.CoreCompileInputs.cache
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario.exe
+C:\Users\eetxa\source\repos\7.Formulario\7.Formulario\obj\Debug\7.Formulario.pdb
